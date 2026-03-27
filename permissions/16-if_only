@@ -1,0 +1,2 @@
+#!/bain/bash
+chown --from guillaume vincent hello
