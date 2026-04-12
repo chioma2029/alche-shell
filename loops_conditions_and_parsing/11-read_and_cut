@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Writing a Bash script that displays the content of the file /etc/passwd
+while IFS= read -r line; do
+	cut -d: -f1,3,6 "$line"
+done
